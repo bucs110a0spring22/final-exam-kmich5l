@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "repl_python3_final-exam-kmich5l"
+version = "0.1.0"
+description = ""
+authors = ["MichelleKang1 <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+image = "^1.5.33"
+pygame = "^2.1.2"
+ipython = "^8.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
