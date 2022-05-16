@@ -15,16 +15,11 @@ class Facts:
       arg: self
       return: req
     '''
-    req = requests.get(self.api_url)
-    return req
+    r = requests.get(self.api_url)
+    response = r.json()
+    return response
+    
 
-  def canvas(self):
-    '''
-      This function sets up the canvas for the image and text to be printed on
-    arg: self
-    return: none
-    '''
-    self.canvas= canvas
     
          
        
